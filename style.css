@@ -4,14 +4,18 @@ img {
     border: 3px solid black;
 }
 
-nav{
-   
-
-}
 
 body{
-    background-color: blanchedalmond;
+    background-image: url(https://wallpapers.com/images/featured/fondos-de-paisajes-naturales-k9tfch0hpfjbaxel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+
 }
+
 
 
 .galeria{
@@ -59,5 +63,10 @@ h2{
 
 
     
+
+}
+
+p{
+   
 
 }
