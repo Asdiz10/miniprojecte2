@@ -6,8 +6,8 @@ img {
 
 
 body{
-    background-image: url(https://wallpapers.com/images/featured/fondos-de-paisajes-naturales-k9tfch0hpfjbaxel.jpg);
-    background-repeat: no-repeat;
+    background-image: url(); /* Añade la URL de la imagen de fondo aquí */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,7 +20,7 @@ body{
 
 .galeria{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Espacio uniforme entre las imágenes */
     padding-top: 50px;
 
 }
@@ -62,11 +62,64 @@ h2{
   
 
 
-    
-
 }
 
+.item:hover { /* Efecto al pasar el ratón sobre la imagen (AMPLIA)*/
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    
+}
+
+
+
 p{
+    text-align: left; 
+    font-size: 15px;
    
 
 }
+
+.container {
+  display: flex;
+  gap: 20px; /* separa la imagen del vídeo */
+  align-items: flex-start;
+  position: relative;
+}
+
+/* Oculta el checkbox */
+.toggle-container input[type="checkbox"] {
+  display: none;
+}
+
+/* Imagen clicable */
+.clickable-img {
+  cursor: pointer;
+  width: 200px;
+}
+
+/* Texto inicialmente oculto, con animación */
+.toggle-text {
+  max-height: 0; /* altura inicial 0 */
+  overflow: hidden; /* esconde el contenido */
+  transition: max-height 0.5s ease, padding 0.5s ease; /* animación suave */
+  position: absolute; /* flota sobre la página */
+  top: 100%; /* justo debajo de la imagen */
+  left: 0;
+  background-color: rgba(255,255,255,0.95);
+  padding: 0 10px; /* padding horizontal, vertical 0 inicialmente */
+  border: 1px solid #ccc;
+  z-index: 10;
+  width: 220px; /* ancho similar a la imagen */
+  box-sizing: border-box;
+}
+
+/* Cuando el checkbox está activado, expandimos el texto */
+.toggle-container input[type="checkbox"]:checked ~ .toggle-text {
+  max-height: 200px; /* ajusta según tu contenido */
+  padding: 10px; /* padding vertical para el contenido */
+}
+.toggle-container {
+  display: inline-block;
+  position: relative;
+}
+
