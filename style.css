@@ -6,7 +6,7 @@ img {
 
 
 body{
-    background-image: url(); /* Añade la URL de la imagen de fondo aquí */
+    background-image: url(https://img.pikbest.com/wp/202408/wooden-background-wall-3d-render-of-a-for-content_9758946.jpg!w700wp); /* Añade la URL de la imagen de fondo aquí */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover;
     background-position: center;
@@ -73,7 +73,7 @@ h2{
 
 
 p{
-    text-align: left; 
+    text-align: center; 
     font-size: 15px;
    
 
