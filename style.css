@@ -5,10 +5,11 @@ img {
 }
 
 
+
 body{
-    background-image: url(https://img.pikbest.com/wp/202408/wooden-background-wall-3d-render-of-a-for-content_9758946.jpg!w700wp); /* Añade la URL de la imagen de fondo aquí */
+    background-color: rgb(105, 0, 0);
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-size: cover;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center;
     height: 100vh;
     margin: 0%;
@@ -22,13 +23,12 @@ body{
     display: flex;
     justify-content: space-around; /* Espacio uniforme entre las imágenes */
     padding-top: 50px;
-
 }
 
 h1{
     display: flex;
     justify-content: center;
-    
+    color: rgb(255, 255, 255);
 
 }
 
@@ -39,30 +39,20 @@ h1{
     
 
 }
-
-.botones{
-    padding-left: 25px;
-    padding-right: 25px;
-    background-color: rgb(109, 58, 0);
-    color: white;
-    text-decoration: none;
    
 
-}
+
 
 h2{
     display: flex;
     justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 
 }
 
-.AZW{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkred
-  
 
 
-}
 
 .item:hover { /* Efecto al pasar el ratón sobre la imagen (AMPLIA)*/
     transform: scale(1.1);
@@ -73,8 +63,12 @@ h2{
 
 
 p{
-    text-align: center; 
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
    
 
 }
@@ -85,6 +79,9 @@ p{
   align-items: flex-start;
   position: relative;
 }
+
+
+
 
 /* Oculta el checkbox */
 .toggle-container input[type="checkbox"] {
@@ -121,5 +118,31 @@ p{
 .toggle-container {
   display: inline-block;
   position: relative;
+}
+
+.detalles{
+    display: flex;
+    position: center;
+    justify-content: center ; 
+    gap: 20px; /* separa la imagen del vídeo */
+    
+  
+}
+
+
+
+
+.inicio{
+    display: block;
+    position: absolute;
+    text-align: right;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    color: rgb(236, 113, 113);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
