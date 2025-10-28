@@ -1,13 +1,5 @@
-img {
-    width: auto;
-    height: 300px;
-    border: 3px solid black;
-}
-
-
-
 body{
-    background-color: rgb(105, 0, 0);
+    background-color: rgb(114, 107, 93);
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center;
@@ -17,14 +9,6 @@ body{
 
 }
 
-
-
-.galeria{
-    display: flex;
-    justify-content: space-around; /* Espacio uniforme entre las imágenes */
-    padding-top: 50px;
-}
-
 h1{
     display: flex;
     justify-content: center;
@@ -32,35 +16,13 @@ h1{
 
 }
 
-.enlaces{
-    display: flex;
-    justify-content: center;
-  
-    
-
-}
-   
-
-
-
 h2{
     display: flex;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15px;
 
 }
-
-
-
-
-.item:hover { /* Efecto al pasar el ratón sobre la imagen (AMPLIA)*/
-    transform: scale(1.1);
-    transition: transform 0.3s;
-    
-}
-
-
 
 p{
     display: flex;
@@ -73,6 +35,22 @@ p{
 
 }
 
+.galeria{
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre las imágenes */
+    padding-top: 50px;
+}
+
+
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+  
+    
+
+}
+
 .container {
   display: flex;
   gap: 20px; /* separa la imagen del vídeo */
@@ -80,45 +58,58 @@ p{
   position: relative;
 }
 
-
-
-
-/* Oculta el checkbox */
-.toggle-container input[type="checkbox"] {
-  display: none;
+.inicio{
+    display: block;
+    position: absolute;
+    text-align: right;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    gap: 10px;
 }
 
-/* Imagen clicable */
-.clickable-img {
-  cursor: pointer;
-  width: 200px;
+.navv{
+    display: block;
+    position: center;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(240, 115, 115);
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgb(12, 34, 0);
+    padding: 10px;
 }
 
-/* Texto inicialmente oculto, con animación */
-.toggle-text {
-  max-height: 0; /* altura inicial 0 */
-  overflow: hidden; /* esconde el contenido */
-  transition: max-height 0.5s ease, padding 0.5s ease; /* animación suave */
-  position: absolute; /* flota sobre la página */
-  top: 100%; /* justo debajo de la imagen */
-  left: 0;
-  background-color: rgba(255,255,255,0.95);
-  padding: 0 10px; /* padding horizontal, vertical 0 inicialmente */
-  border: 1px solid #ccc;
-  z-index: 10;
-  width: 220px; /* ancho similar a la imagen */
-  box-sizing: border-box;
+
+
+
+
+
+.img-ac{
+  border: none;
 }
 
-/* Cuando el checkbox está activado, expandimos el texto */
-.toggle-container input[type="checkbox"]:checked ~ .toggle-text {
-  max-height: 200px; /* ajusta según tu contenido */
-  padding: 10px; /* padding vertical para el contenido */
+.img-elec{
+  display: flex block;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  border: none;
+  font-size: 40px
+  margin-top: 20px;
 }
-.toggle-container {
-  display: inline-block;
-  position: relative;
+
+
+img {
+    width: auto;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
 }
+
+
 
 .detalles{
     display: flex;
@@ -132,17 +123,6 @@ p{
 
 
 
-.inicio{
-    display: block;
-    position: absolute;
-    text-align: right;
-    font-size: 20px;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    color: rgb(236, 113, 113);
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+.AC{
+  color: rgb(0, 0, 0);
 }
-
