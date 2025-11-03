@@ -116,20 +116,6 @@ img {
     border: 3px solid rgb(0, 0, 0);
 }
 
-
-
-.detalles{
-    display: flex;
-    position: center;
-    justify-content: center ; 
-    gap: 5px; /* separa la imagen del vídeo */
-    
-  
-}
-
-
-
-
 .AC{
   color: rgb(0, 0, 0);
 }
