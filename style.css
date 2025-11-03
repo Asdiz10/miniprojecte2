@@ -29,8 +29,8 @@ h2{
 p{
     display: flex;
     text-justify: center;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: 310px;
+    padding-left: 310px;
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -54,13 +54,6 @@ p{
   
     
 
-}
-
-.container {
-  display: flex;
-  gap: 20px; /* separa la imagen del vídeo */
-  align-items: flex-start;
-  position: relative;
 }
 
 .inicio{
@@ -91,33 +84,10 @@ p{
 }
 
 
-
-
-
-
-.img-ac{
-  border: none;
-  font-size: 50px;
-}
-
-.img-elec{
-  display: flex block;
-  justify-content: center; /* Centra la imagen horizontalmente */
-  font-size: 40px;
-  background-color: none;
-  
-
-}
-
-
 img {
-    width: auto;
+    width: 300px;
     height: 300px;
     border: 3px solid rgb(0, 0, 0);
-}
-
-.AC{
-  color: rgb(0, 0, 0);
 }
 
 .perguitar{
@@ -125,10 +95,30 @@ img {
     justify-content: space-around;
     position: center;
     gap: 50px;
-    padding-left: 10px;
-    padding-right: 10px; 
+    padding-left: 250px;
+    padding-right: 250px; 
     
 
 
 
+}
+
+.img-ac{
+    width: 425px;
+    height: 415px;
+    border: none;
+}
+
+
+.img-elec{
+    width: 425px;
+    height: 415px;
+    border: none;
+}
+
+
+.img-elacu{
+    width: 425px;
+    height: 415px;
+    border: none;
 }
