@@ -34,7 +34,7 @@ p{
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: justify;
-    ;
+    
 
    
 
@@ -108,6 +108,12 @@ img {
 
 }
 
+.img-class{
+    width: 425px;
+    height: 415px;
+    border: none;
+}
+
 .img-ac{
     width: 425px;
     height: 415px;
@@ -142,7 +148,32 @@ img {
 
 .fundamentos{
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 700px;
+    padding-right: 700px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.referencias{
+    display: flex;
+    flex-direction: column;
+    padding-left: 820px;
+    padding-right: 820px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    gap: 10px;
+
+}
+
+.refpar{
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
 
 }
