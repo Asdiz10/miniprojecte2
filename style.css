@@ -29,9 +29,9 @@ h2{
 p{
     display: flex;
     text-justify: center;
-    padding-right: 200px;
-    padding-left: 200px;
-    font-size: 30px;
+    padding-right: 250px;
+    padding-left: 250px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: justify;
     ;
@@ -103,7 +103,6 @@ p{
 .img-elec{
   display: flex block;
   justify-content: center; /* Centra la imagen horizontalmente */
-  border: none;
   font-size: 40px;
   background-color: none;
   
@@ -123,7 +122,7 @@ img {
     display: flex;
     position: center;
     justify-content: center ; 
-    gap: 20px; /* separa la imagen del vídeo */
+    gap: 5px; /* separa la imagen del vídeo */
     
   
 }
